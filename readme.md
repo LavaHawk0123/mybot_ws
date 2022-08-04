@@ -2,7 +2,33 @@
 Named so for the particular color scheme chosen, This repository contains the package for an out-of-the-box testing environment for all your simulation needs. The bot comes equipped with a LiDAR(Hokuyo), A Stereocamera(Kinect), an IMU and a GPS module. 
 
 ![Mystique-Isometric](https://user-images.githubusercontent.com/75236655/182896597-44ff61b8-47bc-4f9b-94f5-ccf09e7247aa.gif)
+<h2> instructions to Install <h2>
 
+### Open your catkin workspace in the terminal and run
+```
+git clone https://github.com/LavaHawk0123/mystique-rover.git
+```
+  
+### Open the terminal and run
+```
+cd catkin_ws
+source /opt/ros/noetic/setup.bash
+catkin build
+```
+
+### Then run:
+```
+rosrun {insert your workspace name} rgbgrowing
+```
+
+### In a new terminal run:
+```
+rosrun {insert your workspace name} rgbgrowing
+```
+### In a new terminal run Rviz and visualize the pointcloud:
+```
+rosrun rviz rviz
+```
 ### Rover :
 ![gazebo_rover](https://user-images.githubusercontent.com/75236655/106312727-21af9d00-628d-11eb-9653-eb89e99aa957.png)
 
