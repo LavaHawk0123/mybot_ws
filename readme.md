@@ -1,5 +1,7 @@
-# 4 wheelbot
-### Youtube link:  https://youtu.be/CqgcCk-wZT8
+# Mystique Rover
+Named so for the particular color scheme chosen, This repository contains the package for an out-of-the-box testing environment for all your simulation needs. The bot comes equipped with a LiDAR(Hokuyo), A Stereocamera(Kinect), an IMU and a GPS module. 
+
+![Mystique-Isometric](https://user-images.githubusercontent.com/75236655/182896597-44ff61b8-47bc-4f9b-94f5-ccf09e7247aa.gif)
 
 ### Rover :
 ![gazebo_rover](https://user-images.githubusercontent.com/75236655/106312727-21af9d00-628d-11eb-9653-eb89e99aa957.png)
